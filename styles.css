@@ -1,94 +1,76 @@
-.smallline{
-width:30%;
-height:3px;
-background-color:white;
-border:0}
+/* General tags */
+hr{
+    height:3px;
+width:20%;
+    background-color:white;}
 
-
-hr{height:3px;width:20%;background-color:white;}
 h1{font-size:45px;
-font-family: 'Source Serif Pro', serif;}
-h2{
-font-family: 'Old Standard TT', serif;
-}
-p{font-size:20px;
-font-family: 'Lato', sans-serif;}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #f8f8f1;
-  color:black;
+    font-family: 'Source Serif Pro', serif;}
 
-}
+h2{
+    font-family: 'Old Standard TT', serif;}
+
+p{
+    font-size:20px;
+    font-family: 'Lato', sans-serif;}
+
+/* Navbar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f8f8f1;
+    color:black;}
 
 li {
-  float: left;
-}
+    float: left;}
 
 li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
 
 li a:hover{
-  background-color:#43C6DB;
-}
+    background-color:#43C6DB;}
+
 li .active{
-background-color:#43C6DB}
+    background-color:#43C6DB}
 
+/* Main Body*/
 .mainbody{
-text-align:center;
-background-image: url('needblue.jpg');
- background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;}
+    text-align:center;
+    background-image: url('needblue.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;}
 
+/* Main Body >> Subhead*/
 .subhead{
-padding:10%;
-color:white;
-}
+    padding:10%;
+    color:white;}
 
 .but1{
-font-size:20px;
-padding:10px 20px;
-background-color:#4a4a4a;
-margin-top:25px;
-color:white;
-border-radius:25px;
-}
+    font-size:20px;
+    padding:10px 20px;
+    background-color:#4a4a4a;
+    margin-top:25px;
+    color:white;
+    border-radius:25px;}
 
-.about{padding:5%;}
+/* About */
+.about{
+    padding:5%;}
 
 .faws{
-color:#43C6DB;}
+    color:#43C6DB;}
+
 .faws:hover{
-color:#1569C7}
+    color:#1569C7;}
 
-* {
-  box-sizing: border-box;
-}
-/* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.colcontent{
-color:#3a4d8a;
-}
-
+/* Mid Body - Mid */
 .mid2{
 margin:0% 2%;
 }
@@ -108,34 +90,7 @@ border-radius:50%;}
 .mid-bottom{
 margin:0% 15%;}
 
-
-.contact{margin:0% 2%;}
-
-.contacthover:hover{color:#000456;}
-a{text-decoration:none;}
-a.link1:link{color:black;}
-a.link1:hover{color:blue;}
-
-#contact{opacity:60%;background-color:white;padding-top:30px;}
-
-.bottom{
-text-align:center;
-background-color:#cccccc;
-color:black;
-padding:10px;
-opacity:100%;
-}
-.ops{opacity:80%;}
-
-.footer-link{
-margin:3%;
-margin-bottom:5%;
-
-}
-.footimg{width:40px;}
-.footimg:hover{
-width:41px;}
-
+/*events */
 
 /* flip card */
 .flip-card {
@@ -179,6 +134,40 @@ width:41px;}
   transform: rotateY(180deg);
 }
 
+/* Mid end */
+
+/* Bottom top-Contact */
+.contact{margin:0% 2%;}
+
+.contacthover:hover{color:#000456;}
+a{text-decoration:none;}
+a.link1:link{color:black;}
+a.link1:hover{color:blue;}
+
+#contact{opacity:60%;background-color:white;padding-top:30px;}
+
+/* Bottom - bottom*/
+.bottom{
+text-align:center;
+background-color:#cccccc;
+color:black;
+padding:10px;
+opacity:100%;
+}
+.ops{opacity:80%;}
+
+.footer-link{
+margin:3%;
+margin-bottom:5%;
+
+}
+.footimg{width:40px;}
+.footimg:hover{
+width:41px;}
+
+/* END */
+
+/* Animation */
 .subhead {
   animation-name: fade;
   animation-duration: 4s;
